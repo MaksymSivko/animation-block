@@ -1,0 +1,147 @@
+@import 'animation';
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+	background: burlywood;
+}
+.wrapper{
+	max-width: 1620px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.sect{
+	margin: 10px 0;
+	padding: 10px;
+	font-family: sans-serif;
+	font-size: 20px;
+	border: 2px solid #eee;
+	border-radius: 3px;
+}
+
+.section-1{
+	animation: flipOutX 2s ease-in-out;
+}
+.section-2{
+	animation: rotateInUpRight 2s ease-in-out;
+}
+.section-3{
+	animation: rotateIn 2s ease-in-out;
+}
+.section-4{
+	animation: bounceOutLeft 2s ease-in-out;
+}
+.section-5{
+	animation: pulse 2s ease-in-out;
+}
+
+// @keyframes rollOut
+
+// @keyframes rollIn
+
+// @keyframes slideOutUp
+
+// @keyframes slideOutRight
+
+// @keyframes slideOutLeft
+
+// @keyframes slideInRight
+
+// @keyframes slideInLeft
+
+// @keyframes slideInDown
+
+// @keyframes rotateOutUpRight
+
+// @keyframes rotateOutUpLeft
+
+// @keyframes rotateOutDownRight
+
+// @keyframes rotateOutDownLeft
+
+// @keyframes rotateOut
+
+// @keyframes rotateInUpRight
+
+// @keyframes rotateInUpLeft
+
+// @keyframes rotateInDownRight
+
+// @keyframes rotateInDownLeft
+
+// @keyframes rotateIn
+
+// @keyframes lightSpeedOut
+
+// @keyframes lightSpeedIn
+
+// @keyframes flipOutY
+
+// @keyframes flipOutX
+
+// @keyframes flipInY
+
+// @keyframes flipInX
+
+// @keyframes flip
+
+// @keyframes fadeOutUp
+
+// @keyframes fadeOutRight
+
+// @keyframes fadeOutLeft
+
+// @keyframes fadeOutDown
+
+// @keyframes fadeOut
+
+// @keyframes fadeInUp
+
+// @keyframes fadeInRight
+
+// @keyframes fadeInLeft
+
+// @keyframes fadeInDown
+
+// @keyframes fadeIn
+
+// @keyframes bounceOutUp
+
+// @keyframes bounceOutRight
+
+// @keyframes bounceOutLeft
+
+// @keyframes bounceOutDown
+
+// @keyframes bounceOut
+
+// @keyframes bounceInUp
+
+// @keyframes bounceInRight
+
+// @keyframes bounceInLeft
+
+// @keyframes bounce
+
+// @keyframes swing
+
+// @keyframes hinge
+
+// @keyframes flash
+
+// @keyframes pulse
+
+// @keyframes shake
+
+// @keyframes tada
+
+// @keyframes wobble
+
+// @keyframes bounceIn
+
+// @keyframes bounceInDown
