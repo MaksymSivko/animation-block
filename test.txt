@@ -1,34 +1,3 @@
-@import 'animation';
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-	padding: 0;
-	margin: 0;
-	background: burlywood;
-}
-
-.wrapper {
-	max-width: 1620px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.sect {
-	width: 200px;
-	height: 50px;
-	margin: 10px;
-	padding: 10px;
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 20px;
-	border: 2px solid #eee;
-	border-radius: 3px;
-}
 
 .rollOut {
 	animation: rollOut 2s ease-in-out;
@@ -167,7 +136,7 @@ body {
 }
 
 .fadeIn {
-	animation: fadeIn 2s ease-in-out;
+	animation: animation 2s ease-in-out;
 }
 
 .bounceOutUp {
@@ -222,22 +191,8 @@ body {
 	animation: pulse 2s ease-in-out;
 }
 
-.shake {
-	animation: shake 2s ease-in-out;
-}
-
-.tada {
-	animation: tada 2s ease-in-out;
-}
-
-.wobble {
-	animation: wobble 2s ease-in-out;
-}
-
-.bounceIn {
-	animation: bounceIn 2s ease-in-out;
-}
-
-.bounceInDown {
-	animation: bounceInDown 2s ease-in-out;
-}
+shake
+tada
+wobble
+bounceIn
+bounceInDown
